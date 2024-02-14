@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styie.css" />
+    <link rel="stylesheet" href="css/queries.css">
+    <script defer src="script.js"></script>
+    <title>utiliskapitals</title>
+  </head>
+  <body>
+    <div class="hero-container">
+      <header class="header">
+        <a href=""><img src="img/logo.png" class="logo" alt="" /></a>
+
+        <nav class="main-nav">
+          <ul class="main-nav-list">
+            <li><a href="#" class="main-nav-link">HOME</a></li>
+            <li><a href="#About" class="main-nav-link">ABOUT</a></li>
+            <li><a href="#" class="main-nav-link">FAQ's</a></li>
+            <li><a href="#" class="main-nav-link show-content">CONTENT US</a></li>
+            <li><a href="#" class="main-nav-link  show-login">LOGIN</a></li>
+            <li><a href="#" class="main-nav-link nav-cta show-register">REGISTER</a></li>
+          </ul>
+        </nav>
+
+
+        <button class="btn-mobile-nav">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="icon-mobile-nav menu-outline"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            />
+          </svg>
+
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="icon-mobile-nav close-outline"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M6 18 18 6M6 6l12 12"
+            />
+          </svg>
+
+          <!-- <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon> -->
+        </button>
+      </header>
+
+      <section class="hero-section">
+        <div class="header-container">
+          <div class="hero-box">
+            <p class="hero-text">Welcome To utiliskapitals</p>
+            <h1 class="hero-header">
+              See What <br />
+              Sets <span class="hero-colo">Us Apart</span>
+            </h1>
+            <a href="#" class="btn show-register">REGISTER</a>
+            <a href="#" class="btn-ent show-login">LOGIN</a>
+          </div>
+        </div>
+
+
+    
+      </section>
+    </div>
+
+
+    <div class="login-box hidden">
+      <button class="login-close">&times;</button>
+      <h2 class="form-header">LOGIN HERE</h2>
+      <form action="">
+        
+        <input class="input" type="text" placeholder="
+        Usename*
+        " required>
+        <input class="input" type="text" placeholder="
+        Password*
+        
+        " required>
+        <a href="" class="lost-pass-link">Lost your password?</a>
+        <button type="submit" class="btn-login">login</button>
+      </form>
+
+    </div>
+    <div class="overlay hidden"></div>
+
+    <div class="register-box hidden">
+      <button class="register-close">&times;</button>
+      <h2 class="form-header">Register</h2>
+      <form action="">
+        <div class="input-name">
+          <input class="input" type="text" placeholder="Name*" required>
+          <input class="input" type="text" placeholder="LestName*" required>
+        </div>
+        <input class="input"  type="text"  placeholder="Password*" required>
+        <input class="input"  type="text" placeholder="Repeat Password*" required>
+        <input class="input" type="text" placeholder="Email*" required>
+        <input class="input" type="text"   placeholder="Repeat Email" required>
+         <div class="checkbox">
+             <input type="checkbox" required>
+           <p class="agree">I agree with <a href="#">Terms and conditions</a></p>
+         </div>
+        <button type="submit" class="btn-login">REGISTER</button>
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
+    
+
+    <div class="message-box hidden">
+      <button class="message-close">&times;</button>
+      <h2 class="form-header">Let's Lalk About Your Idea</h2>
+      <form action="">
+        <input class="input" type="text" placeholder="Name*" required>
+        <input class="input" type="text" placeholder="Email*" required>
+        <textarea class="input"    name=""placeholder="Type your Message * " required id="" cols="30" placeholder  rows="10"  ></textarea>
+        
+        <button type="submit" class="btn-login">SEND MASSAGE</button>
+      </form>
+
+    </div>
+    <div class="overlay hidden"></div>
+ 
+
+    <div class="accordion-box hidden ">
+      <button class="login-close">&times;</button>
+      <ul class="accordion ">
+        <li>
+          <input type="radio" name="accordion" id="first" checked>
+          <label for="first">How can I invest with utiliskapitals.online ?</label>
+          <div class="accor-content">
+            <p class="accord-text">
+              To make a investment you must first become a member of utiliskapitals.online. Once you are signed up, you can make your first deposit. All deposits must be made through the Members Area. You can login using the member username and password you receive when signup.
+            </p>
+          </div>
+        </li>
+
+        <li>
+          <input type="radio" name="accordion" id="second">
+          <label for="second">How long does it take for my deposit to be added to my account?</label>
+          <div class="accor-content">
+            <p class="accord-text">
+              Your account will be updated as fast, as you deposit.
+            </p>
+          </div>
+        </li>
+
+        <li>
+          <input type="radio" name="accordion" id="third">
+          <label for="third">How do you calculate the interest on my account?</label>
+          <div class="accor-content">
+            <p class="accord-text">
+              Depending on each plan. Interest on your utiliskapitals.online account is acquired Daily, Weekly, Bi-Weekly, Monthly and Yearly and credited to your available balance at the end of each day.
+            </p>
+          </div>
+        </li>
+
+        <li>
+          <input type="radio" name="accordion" id="fourth">
+          <label for="fourth">May I open several accounts in your platform?</label>
+          <div class="accor-content">
+            <p class="accord-text">
+              No. If we find that one member has more than one account, the entire funds will be frozen.
+            </p>
+          </div>
+        </li>
+      </ul>
+
+    </div>
+    <div class="overlay hidden"></div>
+
+    <section class="about-section" id="About">
+      <div class="container">
+        <div class="about-box">
+          <div class="about-text-box">
+            <h2 class="about-header">Welcome To utiliskapitals.online</h2>
+            <p class="about-text">
+              utiliskapitals.online is a professional investment corporation
+              engaged in Crypto-Currency Trading, Mining, Forex Trade, and
+              Mineral Mining, utiliskapitals.online is based and Licensed in
+              United Kingdom with registration no : 04744604
+            </p>
+            <p class="about-text">
+              In the course of gained knowledge and expertise in the field of
+              innovative trading, our Mission to clear a path for small and
+              mid-sized investors became apparent - in order for them to
+              capitalize on the rapidly growing Cryptocurrency market which is
+              eyed as one of the promising economy options to cater such
+              individuals. A wellspring of trustworthy information, our breadth
+              of experience has fueled our reputation as a financial trading
+              firm
+            </p>
+            <p class="about-text">
+              As a lifetime business partner, utiliskapitals.online is committed
+              in helping investors maximize profits by giving the upper-hand on
+              increasing capital value with early detection of profitable
+              trends.
+            </p>
+          </div>
+          <div>
+            <img src="img/ceo.jpeg" class="about-img" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+       
+   
+    <section class="services-section">
+      <div class="container">
+        <h2 class="services-header">OUR SERVICES</h2>
+
+        <div class="services-box">
+          <div class="services-text-box">
+            <h3 class="secrvices-head">SELE-RELIANT</h3>
+            <p class="services-text">
+              Seasoned traders works in various shifts to cover all time zones
+              and maximize profits to the satisfaction of worldwide investors.
+            </p>
+            <a href="#" class="btn-sev">READ MOVE</a>
+          </div>
+          <div class="services-text-box">
+            <h3 class="secrvices-head">CONSISTENT INCOME</h3>
+            <p class="services-text">
+              Seasoned traders works in various shifts to cover all time zones
+              and maximize profits to the satisfaction of worldwide investors.
+            </p>
+            <a href="#" class="btn-sev">READ MOVE</a>
+          </div>
+          <div class="services-text-box">
+            <h3 class="secrvices-head">SECURE INVESTMENT</h3>
+            <p class="services-text">
+              Utilizing advanced SSL encryption for utmost protection of data
+              and funds.
+            </p>
+            <a href="#" class="btn-sev">READ MOVE</a>
+          </div>
+          <div class="services-text-box">
+            <h3 class="secrvices-head">24/7 CUSTOMER SUPPORT</h3>
+            <p class="services-text">
+              We provide 24/7 customer support through e-mail. Our support
+              representatives are always available to answer any questions.
+            </p>
+            <a href="#" class="btn-sev">READ MOVE</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="what-section">
+      <div class="container">
+        <div class="what-box">
+          <div>
+            <h2 class="what-header">UTILISKAPITALS.ONLINE</h2>
+            <p class="what-text">
+              utiliskapitals.online is a leading trading and mining platform,
+              which offers both investing in stocks and cryptocurrencies, as
+              well as trading CFD with different underlying assets. With a
+              trusted fixed income securities with stable returns. You never
+              have to worry about inflation or devaluation impacting your
+              capital
+            </p>
+            <p class="what-text">
+              utiliskapitals.online launches its cutting-edge, intuitive trading
+              platform, enabling anyone, anywhere to Trade financial assets
+              online including professional tools for both beginner and advanced
+              traders .expanded its cryptocurrency offering, enabling clients to
+              trade and invest in Bitcoin, Ethereum, litecoin and perfect money
+            </p>
+            <img src="img/stann.jpeg" class="what-img" alt="" />
+          </div>
+          <div>
+            <div class="operations__tab-container">
+              <button
+                class="btn-btn operations__tab operations__tab--1 operations__tab--active"
+                data-tab="1"
+              >
+                <span>01</span>Data & Analysis
+              </button>
+              <button
+                class="btn-btn operations__tab operations__tab--2"
+                data-tab="2"
+              >
+                <span>02</span>Affiliate program
+              </button>
+              <button
+                class="btn-btn operations__tab operations__tab--3"
+                data-tab="3"
+              >
+                <span>03</span>Best Care
+              </button>
+            </div>
+
+            <div
+              class="operations__content operations__content--1 operations__content--active"
+            >
+              <p class="wlecome-registration">
+                In different kinds of trading cryptocurrency, forex and binary
+                trades, we trade continuously to find you a stable revenue. In
+                other to maintain a balance of stable income for our investors
+                and traders,we offer only three investment plans for all our
+                members,all our trading technologies and experts are mainly
+                focused on bringing profits to this particular three plans,
+                making it possible to be a long-term platform
+              </p>
+              <img src="img/ceoww.jpeg" class="analysis-img" alt="" />
+            </div>
+
+            <div class="operations__content operations__content--2">
+              <p class="wlecome-registration">
+                Get more from working with PerfectProfit by becoming a project
+                partner. Register on the site, attract members through your
+                affiliate link and get rewarded for their deposits
+              </p>
+              <img src="img/ada.png" class="analysis-img" alt="" />
+            </div>
+
+            <div class="operations__content operations__content--3">
+              <p class="wlecome-registration">
+                It's important for us to stay connected and make sure our site
+                is available to you. That's why we use 24/7 monitoring service
+                with specialist in stand-by.
+              </p>
+              <img src="img/okb.png" class="analysis-img" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="plan-section">
+      <div class="container">
+        <div class="img-container">
+          <h1 class="plans-header">PRICING PLANS</h1>
+        </div>
+      </div>
+    </section>
+    <section class="cta-section">
+      <div class="container">
+        <div class="cta-box">
+          <div class="cta-div">
+            <h3 class="cta-header">ANTMINER</h3>
+            <p class="cta-header-text">10% AFTER 12 HOURS</p>
+            <ul class="cta-list-box">
+              <li class="cta-list">Min Deposit $100</li>
+              <li class="cta-list">Max Deposit $500</li>
+              <li class="cta-list">Profit (%) 12%</li>
+              <li class="cta-list">Principal Back on Maturity</li>
+              <li class="cta-list">24/7 Customer Support</li>
+            </ul>
+            <span class="link-box">
+              <a href="#" class="cta-link">INVEST NOW</a>
+            </span>
+          </div>
+
+          <div class="cta-div">
+            <h3 class="cta-header">WHATSMINER</h3>
+            <p class="cta-header-text">15% AFTER 24 HOURS</p>
+            <ul class="cta-list-box">
+              <li class="cta-list">Min Deposit $1000</li>
+              <li class="cta-list">Max Deposit $5000</li>
+              <li class="cta-list">Profit (%) 15%</li>
+              <li class="cta-list">Principal Back on Maturity</li>
+              <li class="cta-list">24/7 Customer Support</li>
+            </ul>
+            <span class="link-box">
+              <a href="#" class="cta-link cat-full">INVEST NOW</a>
+            </span>
+          </div>
+
+          <div class="cta-div">
+            <h3 class="cta-header">DRAGONMINT</h3>
+            <p class="cta-header-text">25% AFTER 32 HOURS</p>
+            <ul class="cta-list-box">
+              <li class="cta-list">Min Deposit $5000</li>
+              <li class="cta-list">Max Deposit $10,000</li>
+              <li class="cta-list">Profit (%) 25%</li>
+              <li class="cta-list">Principal Back on Maturity</li>
+              <li class="cta-list">24/7 Customer Support</li>
+            </ul>
+            <span class="link-box">
+              <a href="#" class="cta-link">INVEST NOW</a>
+            </span>
+          </div>
+
+          <div class="cta-div">
+            <h3 class="cta-header">VIP PRO</h3>
+            <p class="cta-header-text">50% AFTER 48 HOURSS</p>
+            <ul class="cta-list-box">
+              <li class="cta-list">Min Deposit $10,000</li>
+              <li class="cta-list">Max Deposit unlimited</li>
+              <li class="cta-list">Profit (%) 50%</li>
+              <li class="cta-list">Principal Back on Maturity</li>
+              <li class="cta-list">24/7 Customer Support</li>
+            </ul>
+            <span class="link-box">
+              <a href="#" class="cta-link">INVEST NOW</a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <aside>
+
+      <section class="ceo-section">
+        <div class="container">
+          <h2 class="ceo-head">OUR EXPERTS</h2>
+          <h3 class="ceo-header">Meet Our Team</h3>
+        </div>
+        <div class="ceo-container">
+          <div class="operations__tab-container-two">
+                 <ul class="director-img-box">
+                <button class="btn-img img__tab img__tab--1 img__tab--active"
+                data-tab="1">
+                  <img src="img/ceogirl23.jpg" class="img-btn" alt="">
+                </button>
+                <button class="btn-img  img__tab img__tab--2"
+                data-tab="2">
+                  <img src="img/2(1).jpg" class="img-btn" alt="">
+                </button>
+                <button class="btn-img  img__tab img__tab--3"
+                data-tab="3">
+                  <img src="img/3(1).jpg" class="img-btn" alt="">
+                </button>
+           
+                 </ul>
+          </div>
+  
+          <div class="ceo-f">
+            <div class="kate-box img__content img__content--1 img__content--active" >
+              <div class="kate-img-box">
+                <img src="img/ceogirl23.jpg" class="kate-img" alt="" />
+              </div>
+  
+              <div class="kate-text">
+                <h2 class="director-head">Kate Richdale</h2>
+                <p class="director-header">
+                  Nominee Director, utiliskapitals.online
+                </p>
+                <p class="director-text">
+                  Kate Richdale serves as the Partner and the Head of Strategy &
+                  Business Development for utiliskapitals.online. She works with
+                  utiliskapitals.online investing businesses to assist in
+                  advancing the deal origination pipeline and developing strategic
+                  client relationships across the region.
+                </p>
+              </div>
+            </div>
+  
+            <div class="kate-box img__content img__content--2"  >
+              <div class="kate-img-box">
+                <img src="img/2(1).jpg" class="kate-img" alt="" />
+              </div>
+  
+              <div class="kate-text">
+                <h2 class="director-head">Ranu Vohra</h2>
+                <p class="director-header">
+                  Co-founder, MD & CEO, utiliskapitals.online
+                </p>
+                <p class="director-text">
+                  Ranu Vohra heads utiliskapitals.online and is responsible for its overall growth. He has spent the last 10 years in the Indian financial services industry concluding several marquee transactions in investment banking and private equity. He is based in United State. Prior to co-founding Avendus, Ranu worked with a Tampa (USA) based technology and media investment bank, Communications Equity Associates (CEA) and Hinduja Finance, a diversified financial services firm. He holds an MBA degree from FMS, New Delhi and has a Bachelor's degree in Mechanical Engineering from IIT, New Delhi.
+                </p>
+              </div>
+            </div>
+  
+            <div class="kate-box img__content img__content--3"  >
+              <div class="kate-img-box">
+                <img src="img/3(1).jpg" class="kate-img" alt="" />
+              </div>
+  
+              <div class="kate-text">
+                <h2 class="director-head">Arunkumar Gandhi</h2>
+                <p class="director-header">
+                  Chairman, utiliskapitals.online
+                </p>
+                <p class="director-text">
+                  Arunkumar Gandhi is the chairman of utiliskapitals.online and Independent Director. He is a Fellow Member of the Institute of Chartered Accountants in England & Wales, a Fellow Member of the Institute of Chartered Accountants of India and an Associate Member of the Chartered Institute of Taxation, London.
+                </p>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </aside>
+
+
+    <div class="terms-box hidden">
+      <button class="terms-close">&times;</button>
+      <h2 class="form-header">TERMS OF SERVICE</h2>
+      <div class="terms-section">
+        <div class="terms-container">
+          
+          <p class="terms-text">
+            Please read the following rules carefully before signing in.
+          </p>
+          <p class="terms-text">
+            You agree to be of legal age in your country to partake in this
+            program, and in all the cases your minimal age must be 18 years.
+          </p>
+          <p class="terms-text">
+            utiliskapitals.online is not available to the general public and is
+            opened only to the qualified members of utiliskapitals.online, the use
+            of this site is restricted to our members and to individuals
+            personally invited by them. Every deposit is considered to be a
+            private transaction between the utiliskapitals.online and its Member.
+          </p>
+          <p class="terms-text">
+            As a private transaction, this program is exempt from the US
+            Securities Act of 1933, the US Securities Exchange Act of 1934 and the
+            US Investment Company Act of 1940 and all other rules, regulations and
+            amendments thereof. We are not FDIC insured. We are not a licensed
+            bank or a security firm.
+          </p>
+          <p class="terms-text">
+            You agree that all information, communications, materials coming from
+            utiliskapitals.online are unsolicited and must be kept private,
+            confidential and protected from any disclosure. Moreover, the
+            information, communications and materials contained herein are not to
+            be regarded as an offer, nor a solicitation for investments in any
+            jurisdiction which deems non-public offers or solicitations unlawful,
+            nor to any person to whom it will be unlawful to make such offer or
+            solicitation.
+          </p>
+          <p class="terms-text">
+            All the data giving by a member to utiliskapitals.online will be only
+            privately used and not disclosed to any third parties.
+            utiliskapitals.online is not responsible or liable for any loss of
+            data.
+          </p>
+          <p class="terms-text">
+            You agree to hold all principals and members harmless of any
+            liability. You are investing at your own risk and you agree that a
+            past performance is not an explicit guarantee for the same future
+            performance. You agree that all information, communications and
+            materials you will find on this site are intended to be regarded as an
+            informational and educational matter and not an investment advice.
+          </p>
+          <p class="terms-text">
+            We reserve the right to change the rules, commissions and rates of the
+            program at any time and at our sole discretion without notice,
+            especially in order to respect the integrity and security of the
+            members' interests. You agree that it is your sole responsibility to
+            review the current terms.
+          </p>
+          <p class="terms-text">
+            utiliskapitals.online is not responsible or liable for any damages,
+            losses and costs resulting from any violation of the conditions and
+            terms and/or use of our website by a member. You guarantee to
+            utiliskapitals.online that you will not use this site in any illegal
+            way and you agree to respect your local, national and international
+            laws.
+          </p>
+          <p class="terms-text">
+            Don't post bad vote on Public Forums and at Gold Rating Site without
+            contacting the administrator of our program FIRST. Maybe there was a
+            technical problem with your transaction, so please always CLEAR the
+            thing with the administrator.
+          </p>
+          <p class="terms-text">
+            We will not tolerate SPAM or any type of UCE in this program. SPAM
+            violators will be immediately and permanently removed from the
+            program.
+          </p>
+          <p class="terms-text">
+            utiliskapitals.online reserves the right to accept or decline any
+            member for membership without explanation.
+          </p>
+          <p class="terms-text">
+            If you do not agree with the above disclaimer, please do not go any
+            further.
+          </p>
+        </div>
+      </div>
+
+    </div>
+    <div class="overlay hidden"></div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-box">
+          <div>
+             <h3 class="footer-header">About</h3> 
+             <p class="footer-text">Our top goal is to maximize the output of our Mining farms and 
+              trading operations on the foreign /Mining exchange market. With
+               investment support, we can not only expand our borders, but also
+                increase returns. Our team is continually working, looking for 
+                the increasingly modern trading and mining techniques.</p>        
+          </div>
+          <div>
+            <h3 class="footer-header">Company</h3>
+            <ul class="list-box">
+              <li><a href="#" class="footer-link">Home</a></li>
+              <li><a href="#About" class="footer-link">About</a></li>
+              
+              
+            </ul>
+          </div>
+          <div>
+            <h3 class="footer-header">Useful Links</h3>
+            <ul class="list-box">
+              <li><a href="#" class="footer-link">FAQ's</a></li>
+              <li><a href="" class="footer-link terms-log">Terms</a></li>
+              
+              
+            </ul>
+          </div>
+          <div>
+            <h3 class="footer-header">Member's Area</h3>
+            <ul class="list-box">
+              <li><a href="" class="footer-link show-content">Contact Us</a></li>
+              <li><a href="" class="footer-link show-login">Login</a></li>
+              <li><a href="" class="footer-link show-register">Register</a></li>
+              
+            </ul>
+          </div>
+        </div>
+        <div class="copy">
+
+          <div class="copy-box">
+            <span>
+              <a href="#"><img src="img/logo.png" alt="logo"></a>
+            </span>
+            <p class="copy-text">Copyright © <span class="year">2020</span> All Right Reserved By Utiliskapitals.Online</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+   
+  </body>
+</html>
